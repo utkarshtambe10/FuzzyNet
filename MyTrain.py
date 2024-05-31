@@ -3,7 +3,7 @@ from torch.autograd import Variable
 import os
 import argparse
 from datetime import datetime
-from lib.Fuzzy_Res2Net import FuzzyNet
+from lib.FuzzyNet_Res2Net import FuzzyNet
 from utils.dataloader import get_loader,test_dataset 
 from utils.utils import clip_gradient, adjust_lr, AvgMeter
 import torch.nn.functional as F
